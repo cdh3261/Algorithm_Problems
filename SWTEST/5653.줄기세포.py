@@ -5,8 +5,7 @@ def f(i,j):
     global cells,minV,re
 
     for time in range(minV,K):
-        q = []
-        l=0
+        q,l = [],0
         while l != len(re):
             if re[l][4]==time:
                 q.append([re[l][0], re[l][1], re[l][2], re[l][3], re[l][4]])
@@ -48,8 +47,6 @@ for t in range(int(input())):
                 re.append([i, j, 0, cells[i][j], cells[i][j]])
                 cells[i][j] = [i, j, 0, cells[i][j], cells[i][j]]
     # 마지막 - 활성화되는시간
-
-
     f(I,J)
 
     cnt = 0
