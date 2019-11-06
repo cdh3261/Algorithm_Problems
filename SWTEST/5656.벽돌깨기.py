@@ -21,6 +21,17 @@ def npr(n,k):
             p[n]=m
             npr(n+1,k)
 
+
+def d(k,ni,nj,v):
+    for z in range(v-1):
+        ni += di[k]
+        nj += dj[k]
+        if 0 <= ni < H and 0 <= nj < W and mir[ni][nj] != 0:
+            if mir[ni][nj] > 1:
+                enQ([ni, nj])
+            elif mir[ni][nj] == 1:
+                mir[ni][nj] = 0
+
 def f(i,j):
     global q,rear,front
 
@@ -31,42 +42,43 @@ def f(i,j):
         mir[i][j] = 0
         for k in range(4):
             ni,nj = i,j
-            if k == 0:
-                for z in range(v-1):
-                    ni += di[k]
-                    nj += dj[k]
-                    if 0<=ni<H and 0<=nj<W and mir[ni][nj] != 0:
-                        if mir[ni][nj]>1:
-                            enQ([ni,nj])
-                        elif mir[ni][nj] == 1:
-                            mir[ni][nj] = 0
-            elif k == 1:
-                for z in range(v-1):
-                    ni += di[k]
-                    nj += dj[k]
-                    if 0<=ni<H and 0<=nj<W and mir[ni][nj] != 0:
-                        if mir[ni][nj]>1:
-                            enQ([ni,nj])
-                        elif mir[ni][nj] == 1:
-                            mir[ni][nj] = 0
-            elif k == 2:
-                for z in range(v-1):
-                    ni += di[k]
-                    nj += dj[k]
-                    if 0<=ni<H and 0<=nj<W and mir[ni][nj] != 0:
-                        if mir[ni][nj]>1:
-                            enQ([ni,nj])
-                        elif mir[ni][nj] == 1:
-                            mir[ni][nj] = 0
-            else:
-                for z in range(v-1):
-                    ni += di[k]
-                    nj += dj[k]
-                    if 0 <= ni < H and 0 <= nj < W and mir[ni][nj] != 0:
-                        if mir[ni][nj] > 1:
-                            enQ([ni, nj])
-                        elif mir[ni][nj] == 1:
-                            mir[ni][nj] = 0
+            d(k,ni,nj,v)
+            # if k == 0:
+            #     for z in range(v-1):
+            #         ni += di[k]
+            #         nj += dj[k]
+            #         if 0 <= ni < H and 0 <= nj < W and mir[ni][nj] != 0:
+            #             if mir[ni][nj] > 1:
+            #                 enQ([ni, nj])
+            #             elif mir[ni][nj] == 1:
+            #                 mir[ni][nj] = 0
+            # elif k == 1:
+            #     for z in range(v-1):
+            #         ni += di[k]
+            #         nj += dj[k]
+            #         if 0<=ni<H and 0<=nj<W and mir[ni][nj] != 0:
+            #             if mir[ni][nj]>1:
+            #                 enQ([ni,nj])
+            #             elif mir[ni][nj] == 1:
+            #                 mir[ni][nj] = 0
+            # elif k == 2:
+            #     for z in range(v-1):
+            #         ni += di[k]
+            #         nj += dj[k]
+            #         if 0<=ni<H and 0<=nj<W and mir[ni][nj] != 0:
+            #             if mir[ni][nj]>1:
+            #                 enQ([ni,nj])
+            #             elif mir[ni][nj] == 1:
+            #                 mir[ni][nj] = 0
+            # else:
+            #     for z in range(v-1):
+            #         ni += di[k]
+            #         nj += dj[k]
+            #         if 0 <= ni < H and 0 <= nj < W and mir[ni][nj] != 0:
+            #             if mir[ni][nj] > 1:
+            #                 enQ([ni, nj])
+            #             elif mir[ni][nj] == 1:
+            #                 mir[ni][nj] = 0
 
 
 di = [0,1,0,-1]
