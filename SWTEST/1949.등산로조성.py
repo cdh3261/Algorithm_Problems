@@ -44,4 +44,4 @@ for t in range(int(input())):
         for j in range(N):
             if mount[i][j] == m:
                 walking(i,j,N,cnt,cut)
-    print(saveload)
+    print('#{} {}'.format(t+1,saveload))

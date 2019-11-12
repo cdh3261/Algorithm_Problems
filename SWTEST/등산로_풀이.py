@@ -2,10 +2,9 @@ import sys
 sys.stdin = open('mount.txt', 'r')
 
 def walking(i,j,c,e):
-    global N,K,maxV,visited,mount
+    global maxV
 
-    if maxV < e:
-        maxV = e
+    maxV = max(maxV,e)
     visited[i][j] = 1
 
     for s in range(4):
@@ -21,8 +20,7 @@ def walking(i,j,c,e):
                 mount[ni][nj] = org # 돌아오면 높이 원상복구
     visited[i][j] = 0 # 다른 경로의 등산로에 포함될 수 있으므로 해제
 
-di = [0,1,0,-1]
-dj = [1,0,-1,0]
+di,dj = [0,1,0,-1],[1,0,-1,0]
 for t in range(int(input())):
     N, K = map(int, input().split())
     maxV = 0
@@ -38,4 +36,4 @@ for t in range(int(input())):
         for j in range(N):
             if mount[i][j] == m:
                 walking(i,j,1,1)
-    print(maxV)
+    print('#{} {}'.format(t+1,maxV))
