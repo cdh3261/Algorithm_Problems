@@ -1,25 +1,5 @@
 def escape(i,j,N,M,L):
     global prison, arr
-    di1 = [-1,1,0,0]
-    dj1 = [0,0,-1,1]
-
-    di2 = [-1,1]
-    dj2 = [0,0]
-
-    di3 = [0,0]
-    dj3 = [-1,1]
-
-    di4 = [-1,0]
-    dj4 = [0,1]
-
-    di5 = [0,1]
-    dj5 = [1,0]
-
-    di6 = [0,1]
-    dj6 = [-1,0]
-
-    di7 = [-1,0]
-    dj7 = [0,-1]
 
     q = []
     q.append([i, j])
@@ -147,11 +127,31 @@ def escape(i,j,N,M,L):
                 cnt += 1
     return cnt
 
+di1 = [-1,1,0,0]
+dj1 = [0,0,-1,1]
+
+di2 = [-1,1]
+dj2 = [0,0]
+
+di3 = [0,0]
+dj3 = [-1,1]
+
+di4 = [-1,0]
+dj4 = [0,1]
+
+di5 = [0,1]
+dj5 = [1,0]
+
+di6 = [0,1]
+dj6 = [-1,0]
+
+di7 = [-1,0]
+dj7 = [0,-1]
 TC = int(input())
 for t in range(TC):
-    N,M,Rx,Ry,L = map(int, input().split()) # L은 탈출 후 시간
+    N,M,Rx,Ry,L = map(int, input().split())
     prison = [list(map(int, input().split())) for i in range(N)]
-    arr = [[0]*M for _ in range(N)] # 거리구할 행렬 만들기
+    arr = [[0]*M for _ in range(N)]
     if L == 1:
         print('#{} 1'.format(t+1))
     else:
