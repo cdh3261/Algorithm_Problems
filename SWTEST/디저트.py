@@ -19,20 +19,19 @@ def f(i,j, pos, p):
             k = 2
         elif ni==p:
             k = 1
-        elif nj==p:
+        else:
             k = 0
 
 def d():
     global maxV
-    for p in range(N, 2, -1):
-        for q in range(N - p + 1):
-            for i in range(N - p + 1):
-                pos = [0] * p
+    for p in range(N,2,-1):
+        for q in range(N-p+1):
+            for i in range(N-p+1):
+                pos = [0]*p
                 for j in range(p):
-                    pos[j] = arr[j + q][i:i + p]
-                for y in range(p):
-                    if not y == 0 and not y == p - 1:
-                        maxV = max(f(0, y, pos, p), maxV)
+                    pos[j] = arr[j+q][i:i+p]
+                for y in range(1,p-1):
+                    maxV = max(f(0, y, pos, p), maxV)
                     if maxV != 0:
                         return maxV
 
