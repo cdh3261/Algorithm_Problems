@@ -16,7 +16,7 @@ start3 = time.time()
 d = [i for i in range(1,10000000)]
 print('{}초 걸림'.format(time.time()-start3))
 
-
+#
 
 # 1.4172654151916504초 걸림
 # 1.027250051498413초 걸림
