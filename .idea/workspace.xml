@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9447a6cd-17f7-4348-bde5-d037b33cd220" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/DH.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DH.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/아무거나.py" beforeDir="false" afterPath="$PROJECT_DIR$/아무거나.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/아무거나.txt" beforeDir="false" afterPath="$PROJECT_DIR$/아무거나.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,19 +52,65 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="6189398">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="3" />
+          <entry key="txt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="92" />
+          <entry key="txt" value="119" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="119" />
+          <entry key="Python" value="92" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/아무거나.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="83">
+              <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/아무거나.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/D4/4261.빠른휴대전화키패드.py">
+        <entry file="file://$PROJECT_DIR$/BAEKJOON/SD/17822.원판돌리기.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+            <state relative-caret-position="152">
+              <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -123,14 +173,17 @@
         <option value="$PROJECT_DIR$/adf.py" />
         <option value="$PROJECT_DIR$/D3/7675.통역사 성경이.py" />
         <option value="$PROJECT_DIR$/D4/4050.재관이의대량할인.py" />
-        <option value="$PROJECT_DIR$/아무거나.py" />
         <option value="$PROJECT_DIR$/D4/3347.올림픽종목투표.py" />
         <option value="$PROJECT_DIR$/D4/4261.빠른휴대전화키패드.py" />
+        <option value="$PROJECT_DIR$/아무거나.py" />
+        <option value="$PROJECT_DIR$/아무거나.txt" />
+        <option value="$PROJECT_DIR$/BAEKJOON/SD/17822.원판돌리기.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="452" />
+    <option name="x" value="471" />
+    <option name="y" value="2" />
     <option name="width" value="1450" />
     <option name="height" value="1047" />
   </component>
@@ -142,15 +195,7 @@
           <State>
             <id>Python</id>
           </State>
-          <State>
-            <id>RELAX NG</id>
-          </State>
         </expanded-state>
-        <selected-state>
-          <State>
-            <id>Buildout</id>
-          </State>
-        </selected-state>
       </profile-state>
     </entry>
   </component>
@@ -162,27 +207,34 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="DH" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DH" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithm_Problems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm_Problems" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="DH" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DH" type="462c0819:PsiDirectoryNode" />
-              <item name="D4" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithm_Problems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm_Problems" type="462c0819:PsiDirectoryNode" />
+              <item name="BAEKJOON" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm_Problems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm_Problems" type="462c0819:PsiDirectoryNode" />
+              <item name="BAEKJOON" type="462c0819:PsiDirectoryNode" />
+              <item name="SD" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -203,7 +255,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.4261.빠른휴대전화키패드">
+  <component name="RunManager" selected="Python.아무거나">
     <configuration name="아무거나" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DH" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -402,10 +454,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.아무거나" />
         <item itemvalue="Python.4261.빠른휴대전화키패드" />
         <item itemvalue="Python.3347.올림픽종목투표" />
         <item itemvalue="Python.4050.재관이의대량할인" />
-        <item itemvalue="Python.아무거나" />
         <item itemvalue="Python.7675.통역사 성경이" />
       </list>
     </recent_temporary>
@@ -424,15 +476,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="452" y="0" width="1450" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="471" y="2" width="1450" height="1047" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25779036" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.123937674" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32894737" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22916667" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22916667" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.37280703" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -615,115 +666,20 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Ready_to_A/4012.요리사(재귀).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="39" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ready_to_A/요리사.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ready_to_A/벽돌깨기.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" selection-start-line="32" selection-end-line="46" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/당근수확1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/당근수확2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ready_to_A/5658.보물상자비밀번호.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ready_to_A/수정이.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="15" selection-start-line="3" selection-end-line="4" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ready_to_A/핀볼.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ready_to_A/in.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ready_to_A/혁진이.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10127">
-          <caret line="533" selection-start-line="533" selection-end-line="543" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ready_to_A/1824.혁진이.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="99" column="44" selection-start-line="97" selection-start-column="31" selection-end-line="99" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ready_to_A/5650.핀볼게임.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ready_to_A/보호필름.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ready_to_A/2112.보호필름.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ex/당근수확1.py" />
+    <entry file="file://$PROJECT_DIR$/ex/당근수확2.py" />
+    <entry file="file://$PROJECT_DIR$/Ready_to_A/5658.보물상자비밀번호.py" />
+    <entry file="file://$PROJECT_DIR$/Ready_to_A/수정이.txt" />
+    <entry file="file://$PROJECT_DIR$/Ready_to_A/핀볼.txt" />
+    <entry file="file://$PROJECT_DIR$/Ready_to_A/in.txt" />
+    <entry file="file://$PROJECT_DIR$/Ready_to_A/혁진이.txt" />
+    <entry file="file://$PROJECT_DIR$/Ready_to_A/1824.혁진이.py" />
+    <entry file="file://$PROJECT_DIR$/Ready_to_A/5650.핀볼게임.py" />
+    <entry file="file://$PROJECT_DIR$/Ready_to_A/보호필름.txt" />
+    <entry file="file://$PROJECT_DIR$/Ready_to_A/2112.보호필름.py" />
     <entry file="file://$PROJECT_DIR$/Ready_to_A/백조의호수.txt.py" />
-    <entry file="file://$PROJECT_DIR$/Ready_to_A/5656.벽돌깨기.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1501">
-          <caret line="79" column="19" lean-forward="true" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BAEKJOON/3197.백조의호수.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1273">
-          <caret line="67" column="26" lean-forward="true" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
-          <folding>
-            <marker date="1570676282368" expanded="true" signature="110:2062" ph="..." />
-            <marker date="1570676282368" expanded="true" signature="2029:2034" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Ready_to_A/5656.벽돌깨기.py" />
+    <entry file="file://$PROJECT_DIR$/BAEKJOON/3197.백조의호수.py" />
     <entry file="file://$PROJECT_DIR$/원형큐.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -731,74 +687,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex/당근수확3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python35/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5852">
-          <caret line="308" selection-start-line="308" selection-end-line="308" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BAEKJOON/백조2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
-          <folding>
-            <marker date="1570684533021" expanded="true" signature="189:271" ph="..." />
-            <marker date="1570684533021" expanded="true" signature="937:1451" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BAEKJOON/백조.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BAEKJOON/3190.뱀.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ready_to_A/홈방범.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" selection-start-line="29" selection-end-line="44" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ready_to_A/4014.활주로.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ready_to_A/2117.홈방범서비스.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ready_to_A/2383.점심식사시간.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ready_to_A/1949.등산로조성.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-159" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ex/당근수확3.py" />
+    <entry file="file://C:/Program Files/Python35/Lib/codecs.py" />
+    <entry file="file://$PROJECT_DIR$/BAEKJOON/백조2.py" />
+    <entry file="file://$PROJECT_DIR$/BAEKJOON/백조.txt" />
+    <entry file="file://$PROJECT_DIR$/BAEKJOON/3190.뱀.py" />
+    <entry file="file://$PROJECT_DIR$/Ready_to_A/홈방범.txt" />
+    <entry file="file://$PROJECT_DIR$/Ready_to_A/4014.활주로.py" />
+    <entry file="file://$PROJECT_DIR$/Ready_to_A/2117.홈방범서비스.py" />
+    <entry file="file://$PROJECT_DIR$/Ready_to_A/2383.점심식사시간.py" />
+    <entry file="file://$PROJECT_DIR$/Ready_to_A/1949.등산로조성.py" />
     <entry file="file://$PROJECT_DIR$/D3/4522.세상의모든펠린드롬.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -808,89 +706,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dd" />
     <entry file="file://$PROJECT_DIR$/D3/3809.화섭이의정수나열.py" />
-    <entry file="file://$PROJECT_DIR$/Ready_to_A/2477.정비소.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BAEKJOON/ex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ready_to_A/e.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ready_to_A/연습.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="47" lean-forward="true" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ready_to_A/5653.줄기세포.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ready_to_A/세포.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Ready_to_A/2477.정비소.py" />
+    <entry file="file://$PROJECT_DIR$/BAEKJOON/ex.py" />
+    <entry file="file://$PROJECT_DIR$/Ready_to_A/e.py" />
+    <entry file="file://$PROJECT_DIR$/Ready_to_A/연습.py" />
+    <entry file="file://$PROJECT_DIR$/Ready_to_A/5653.줄기세포.py" />
+    <entry file="file://$PROJECT_DIR$/Ready_to_A/세포.txt" />
     <entry file="file://$PROJECT_DIR$/ddd.py" />
-    <entry file="file://$PROJECT_DIR$/Ready_to_A/디저트.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ready_to_A/SD/삼전기출.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-240">
-          <caret line="35" column="19" lean-forward="true" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Ready_to_A/디저트.py" />
+    <entry file="file://$PROJECT_DIR$/Ready_to_A/SD/삼전기출.py" />
     <entry file="file://$PROJECT_DIR$/BAEKJOON/탐색/아기상어-주석X.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/BAEKJOON/탐색/백준.아기상어.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ready_to_A/SD/기출01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SWTEST/SD/기출01.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BAEKJOON/SD/기출.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Ready_to_A/SD/기출01.py" />
+    <entry file="file://$PROJECT_DIR$/adf.py" />
+    <entry file="file://$PROJECT_DIR$/SWTEST/SD/기출01.py" />
     <entry file="file://$PROJECT_DIR$/D3/7675.통역사 성경이.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -912,13 +745,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/아무거나.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/D4/4261.빠른휴대전화키패드.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/보충/17135.캐슬디펜스.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BAEKJOON/SD/기출.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-696" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/아무거나.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/아무거나.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BAEKJOON/SD/17822.원판돌리기.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
         </state>
       </provider>
     </entry>
