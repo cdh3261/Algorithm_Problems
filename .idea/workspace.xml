@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9447a6cd-17f7-4348-bde5-d037b33cd220" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/DH.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DH.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/아무거나.py" beforeDir="false" afterPath="$PROJECT_DIR$/아무거나.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/아무거나.txt" beforeDir="false" afterPath="$PROJECT_DIR$/아무거나.txt" afterDir="false" />
@@ -55,33 +53,34 @@
     <session id="6189398">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.2" value="4" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="3" />
+          <entry key="py" value="9" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="3" />
+          <entry key="Python" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="92" />
-          <entry key="txt" value="119" />
+          <entry key="py" value="6291" />
+          <entry key="txt" value="424" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="119" />
-          <entry key="Python" value="92" />
+          <entry key="PLAIN_TEXT" value="424" />
+          <entry key="Python" value="6291" />
         </counts>
       </usages-collector>
     </session>
@@ -91,8 +90,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/아무거나.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
+            <state relative-caret-position="2052">
+              <caret line="108" column="11" selection-start-line="108" selection-start-column="11" selection-end-line="108" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -100,17 +99,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/아무거나.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+            <state relative-caret-position="76">
+              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BAEKJOON/SD/17822.원판돌리기.py">
+        <entry file="file://$PROJECT_DIR$/BAEKJOON/탐색/2573.빙산.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+            <state relative-caret-position="395">
+              <caret line="49" column="13" lean-forward="true" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+              <folding>
+                <marker date="1576118147188" expanded="true" signature="11:503" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -130,7 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Ready_to_A/5644.무선충전.py" />
         <option value="$PROJECT_DIR$/Ready_to_A/요리사.py" />
         <option value="$PROJECT_DIR$/Ready_to_A/4012.요리사.py" />
         <option value="$PROJECT_DIR$/Ready_to_A/5656.벽돌깨기.py" />
@@ -175,16 +176,19 @@
         <option value="$PROJECT_DIR$/D4/4050.재관이의대량할인.py" />
         <option value="$PROJECT_DIR$/D4/3347.올림픽종목투표.py" />
         <option value="$PROJECT_DIR$/D4/4261.빠른휴대전화키패드.py" />
-        <option value="$PROJECT_DIR$/아무거나.py" />
-        <option value="$PROJECT_DIR$/아무거나.txt" />
         <option value="$PROJECT_DIR$/BAEKJOON/SD/17822.원판돌리기.py" />
+        <option value="$PROJECT_DIR$/BAEKJOON/탐색/2468.안전영역.py" />
+        <option value="$PROJECT_DIR$/아무거나.txt" />
+        <option value="$PROJECT_DIR$/아무거나.py" />
+        <option value="$PROJECT_DIR$/BAEKJOON/SD/17825.주사위윷놀이.py" />
+        <option value="$PROJECT_DIR$/BAEKJOON/탐색/2636.치즈.py" />
+        <option value="$PROJECT_DIR$/BAEKJOON/탐색/2573.빙산.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="471" />
-    <option name="y" value="2" />
-    <option name="width" value="1450" />
+    <option name="x" value="1026" />
+    <option name="width" value="901" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -207,7 +211,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -226,10 +229,17 @@
               <item name="BAEKJOON" type="462c0819:PsiDirectoryNode" />
               <item name="SD" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Algorithm_Problems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm_Problems" type="462c0819:PsiDirectoryNode" />
+              <item name="BAEKJOON" type="462c0819:PsiDirectoryNode" />
+              <item name="탐색" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -255,7 +265,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.아무거나">
+  <component name="RunManager" selected="Python.2573.빙산">
     <configuration name="아무거나" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DH" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -277,7 +287,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="3347.올림픽종목투표" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="17825.주사위윷놀이" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DH" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -285,11 +295,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/D4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BAEKJOON/SD" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/D4/3347.올림픽종목투표.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BAEKJOON/SD/17825.주사위윷놀이.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -298,7 +308,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="4050.재관이의대량할인" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="2468.안전영역" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DH" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -306,11 +316,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/D4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BAEKJOON/탐색" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/D4/4050.재관이의대량할인.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BAEKJOON/탐색/2468.안전영역.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -319,7 +329,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="4261.빠른휴대전화키패드" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="2573.빙산" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DH" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -327,11 +337,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/D4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BAEKJOON/탐색" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/D4/4261.빠른휴대전화키패드.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BAEKJOON/탐색/2573.빙산.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -340,7 +350,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="7675.통역사 성경이" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="2636.치즈" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DH" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -348,11 +358,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/D3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BAEKJOON/탐색" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/D3/7675.통역사 성경이.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BAEKJOON/탐색/2636.치즈.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -447,18 +457,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.아무거나" />
-      <item itemvalue="Python.7675.통역사 성경이" />
-      <item itemvalue="Python.4050.재관이의대량할인" />
-      <item itemvalue="Python.3347.올림픽종목투표" />
-      <item itemvalue="Python.4261.빠른휴대전화키패드" />
+      <item itemvalue="Python.2468.안전영역" />
+      <item itemvalue="Python.17825.주사위윷놀이" />
+      <item itemvalue="Python.2636.치즈" />
+      <item itemvalue="Python.2573.빙산" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.2573.빙산" />
+        <item itemvalue="Python.2636.치즈" />
+        <item itemvalue="Python.17825.주사위윷놀이" />
         <item itemvalue="Python.아무거나" />
-        <item itemvalue="Python.4261.빠른휴대전화키패드" />
-        <item itemvalue="Python.3347.올림픽종목투표" />
-        <item itemvalue="Python.4050.재관이의대량할인" />
-        <item itemvalue="Python.7675.통역사 성경이" />
+        <item itemvalue="Python.2468.안전영역" />
       </list>
     </recent_temporary>
   </component>
@@ -476,14 +486,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="471" y="2" width="1450" height="1047" extended-state="0" />
+    <frame x="1026" y="0" width="901" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.123937674" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15063731" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32894737" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22916667" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2258772" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.37280703" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -666,10 +677,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ex/당근수확1.py" />
-    <entry file="file://$PROJECT_DIR$/ex/당근수확2.py" />
-    <entry file="file://$PROJECT_DIR$/Ready_to_A/5658.보물상자비밀번호.py" />
-    <entry file="file://$PROJECT_DIR$/Ready_to_A/수정이.txt" />
     <entry file="file://$PROJECT_DIR$/Ready_to_A/핀볼.txt" />
     <entry file="file://$PROJECT_DIR$/Ready_to_A/in.txt" />
     <entry file="file://$PROJECT_DIR$/Ready_to_A/혁진이.txt" />
@@ -764,24 +771,59 @@
         <state relative-caret-position="-696" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/아무거나.py">
+    <entry file="file://$PROJECT_DIR$/BAEKJOON/탐색/2468.안전영역.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/아무거나.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        <state relative-caret-position="449">
+          <caret line="38" column="24" lean-forward="true" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BAEKJOON/SD/17822.원판돌리기.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        <state relative-caret-position="684">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/아무거나.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2052">
+          <caret line="108" column="11" selection-start-line="108" selection-start-column="11" selection-end-line="108" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BAEKJOON/SD/17825.주사위윷놀이.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" column="8" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BAEKJOON/탐색/2636.치즈.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+          <folding>
+            <marker date="1576116138081" expanded="true" signature="578:580" ph="..." />
+            <marker date="1576116138081" expanded="true" signature="580:610" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/아무거나.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BAEKJOON/탐색/2573.빙산.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="49" column="13" lean-forward="true" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+          <folding>
+            <marker date="1576118147188" expanded="true" signature="11:503" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
