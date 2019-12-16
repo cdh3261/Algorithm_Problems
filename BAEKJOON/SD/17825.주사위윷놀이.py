@@ -6,20 +6,16 @@ def f(n,k):
         check = [0]*33
         total_score = 0
         for i in range(10):
-            horse = p[i]
-            going = arr[i]
-            previous_idx = idx[horse]
-            next_idx = points[previous_idx][going]
+            next_idx = points[idx[p[i]]][arr[i]]
             if check[next_idx] == 1 and next_idx != 32:
                 return
-            check[previous_idx] = 0
+            check[idx[p[i]]] = 0
             check[next_idx] = 1
-            idx[horse] = next_idx
+            idx[p[i]] = next_idx
             get_score = points[next_idx][0]
             total_score += get_score
         if maxV < total_score:
             maxV = total_score
-            # print(p)
         return
 
     for m in range(4):
