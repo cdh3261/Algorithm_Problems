@@ -1,76 +1,208 @@
-def escape(Rx,Ry,Bx,By):
-    global game, cnt, minV
+# 시작: 19시 11분 // 끝: 20시 50분 ;;;;;;
 
-    stack = []
-    stack.append([Rx, Ry])
+def f(n,k):
+    global minV
 
-    while stack:
-        st = stack.pop()
-        i = st[0]
-        j = st[1]
-        for k in range(4):
-
-
-            if cnt >= minV:
-                break
-
-            while 1:
-                ni = i + di[k]
-                nj = j + dj[k]
-
-                # 오른쪽갈때
-                if k == 0:
-                    if 'B' in game[i][j+1:]:
-
-                    else:
-                        if game[ni][nj] == '#' or game[ni][nj] == 'B':
-                            break
-                        elif game[ni][nj] == 'O':
-                            if cnt < minV:
-                                minV = cnt
-
-                        i += di[k]
-                        j += dj[k]
-
-                # 왼쪽
-                if k == 1:
-                    if 'B' in game[i][1:j]:
-
-                    else:
-                        if game[ni][nj] == '#' or game[ni][nj] == 'B':
-                            break
-
-                        elif game[ni][nj] == 'O':
-                            if cnt < minV:
-                                minV = cnt
-
-                        i += di[k]
-                        j += dj[k]
-
-                # 아래
-                if k == 2:
-                      if 'B' in game[]
-
+    if n == k:
+        arrCopy = [arr[_][:] for _ in range(N)]
+        redBall = RedBall[:]
+        blueBall = BlueBall[:]
+        cnt = 0
+        for i in res:
             cnt += 1
-            stack.append([i, j])
+            # 오른쪽 일때
+            if i == 1:
+                # 파랑공이 오른쪽에 있을 경우, 파랑 공을 먼저 움직인다.
+                if redBall[0] == blueBall[0] and redBall[1] < blueBall[1]-1:
+                    while 1:
+                        if arrCopy[blueBall[0]][blueBall[1]+1] == '.':
+                            arrCopy[blueBall[0]][blueBall[1]+1],arrCopy[blueBall[0]][blueBall[1]] = 'B','.'
+                            blueBall[1] += 1
+                        elif arrCopy[blueBall[0]][blueBall[1]+1] == 'O':
+                            return
+                        else:
+                            if arrCopy[redBall[0]][redBall[1]+1] == '.':
+                                arrCopy[redBall[0]][redBall[1]+1],arrCopy[redBall[0]][redBall[1]] = 'R','.'
+                                redBall[1] += 1
+                            elif arrCopy[redBall[0]][redBall[1]+1] == 'O':
+                                return cnt
+                            else:
+                                break
+                else:
+                    while 1:
+                        if arrCopy[redBall[0]][redBall[1]+1] == '.':
+                            arrCopy[redBall[0]][redBall[1]+1],arrCopy[redBall[0]][redBall[1]] = 'R','.'
+                            redBall[1] += 1
+                        elif arrCopy[redBall[0]][redBall[1]+1] == 'O':
+                            arrCopy[redBall[0]][redBall[1]] = '.'
+                            while 1:
+                                if arrCopy[blueBall[0]][blueBall[1]+1] == '.':
+                                    arrCopy[blueBall[0]][blueBall[1]+1],arrCopy[blueBall[0]][blueBall[1]] = 'B','.'
+                                    blueBall[1] += 1
+                                elif arrCopy[blueBall[0]][blueBall[1]+1] == 'O':
+                                    return
+                                else:
+                                    return cnt
+                        else:
+                            if arrCopy[blueBall[0]][blueBall[1]+1] == '.':
+                                arrCopy[blueBall[0]][blueBall[1]+1],arrCopy[blueBall[0]][blueBall[1]] = 'B','.'
+                                blueBall[1] += 1
+                            elif arrCopy[blueBall[0]][blueBall[1]+1] == 'O':
+                                return
+                            else:
+                                break
 
-di = [0,0,1,-1]
-dj = [1,-1,0,0]
+            # 왼쪽
+            elif i == 2:
+                if redBall[0] == blueBall[0] and redBall[1] > blueBall[1]:
+                    while 1:
+                        if arrCopy[blueBall[0]][blueBall[1]-1] == '.':
+                            arrCopy[blueBall[0]][blueBall[1]-1],arrCopy[blueBall[0]][blueBall[1]] = 'B','.'
+                            blueBall[1] -= 1
+                        elif arrCopy[blueBall[0]][blueBall[1]-1] == 'O':
+                            return
+                        else:
+                            if arrCopy[redBall[0]][redBall[1]-1] == '.':
+                                arrCopy[redBall[0]][redBall[1]-1],arrCopy[redBall[0]][redBall[1]] = 'R','.'
+                                redBall[1] -= 1
+                            elif arrCopy[redBall[0]][redBall[1]-1] == 'O':
+                                return cnt
+                            else:
+                                break
+                else:
+                    while 1:
+                        if arrCopy[redBall[0]][redBall[1]-1] == '.':
+                            arrCopy[redBall[0]][redBall[1]-1],arrCopy[redBall[0]][redBall[1]] = 'R','.'
+                            redBall[1] -= 1
+                        elif arrCopy[redBall[0]][redBall[1]-1] == 'O':
+                            arrCopy[redBall[0]][redBall[1]] = '.'
+                            while 1:
+                                if arrCopy[blueBall[0]][blueBall[1]-1] == '.':
+                                    arrCopy[blueBall[0]][blueBall[1]-1],arrCopy[blueBall[0]][blueBall[1]] = 'B','.'
+                                    blueBall[1] -= 1
+                                elif arrCopy[blueBall[0]][blueBall[1]-1] == 'O':
+                                    return
+                                else:
+                                    return cnt
+                        else:
+                            if arrCopy[blueBall[0]][blueBall[1]-1] == '.':
+                                arrCopy[blueBall[0]][blueBall[1]-1],arrCopy[blueBall[0]][blueBall[1]] = 'B','.'
+                                blueBall[1] -= 1
+                            elif arrCopy[blueBall[0]][blueBall[1]-1] == 'O':
+                                return
+                            else:
+                                break
 
-# R이 벽 or B를 만나면 방향 전환하면서 cnt +1
-# R이 B보다 먼저 구멍을 만나면 끝.
-# cnt>10이거나 B가 먼저 구멍을 만나면 -1 출력
-N, M = map(int, input().split())
-game = [list(input()) for i in range(N)]
+            # 위쪽
+            elif i == 3:
+                if redBall[0] > blueBall[0] and redBall[1] == blueBall[1]:
+                    while 1:
+                        if arrCopy[blueBall[0]-1][blueBall[1]] == '.':
+                            arrCopy[blueBall[0]-1][blueBall[1]],arrCopy[blueBall[0]][blueBall[1]] = 'B','.'
+                            blueBall[0] -= 1
+                        elif arrCopy[blueBall[0]-1][blueBall[1]] == 'O':
+                            return
+                        else:
+                            if arrCopy[redBall[0]-1][redBall[1]] == '.':
+                                arrCopy[redBall[0]-1][redBall[1]],arrCopy[redBall[0]][redBall[1]] = 'R','.'
+                                redBall[0] -= 1
+                            elif arrCopy[redBall[0]-1][redBall[1]] == 'O':
+                                return cnt
+                            else:
+                                break
+                else:
+                    while 1:
+                        if arrCopy[redBall[0]-1][redBall[1]] == '.':
+                            arrCopy[redBall[0]-1][redBall[1]],arrCopy[redBall[0]][redBall[1]] = 'R','.'
+                            redBall[0] -= 1
+                        elif arrCopy[redBall[0]-1][redBall[1]] == 'O':
+                            arrCopy[redBall[0]][redBall[1]] = '.'
+                            while 1:
+                                if arrCopy[blueBall[0]-1][blueBall[1]] == '.':
+                                    arrCopy[blueBall[0]-1][blueBall[1]],arrCopy[blueBall[0]][blueBall[1]] = 'B','.'
+                                    blueBall[0] -= 1
+                                elif arrCopy[blueBall[0]-1][blueBall[1]] == 'O':
+                                    return
+                                else:
+                                    return cnt
+                        else:
+                            if arrCopy[blueBall[0]-1][blueBall[1]] == '.':
+                                arrCopy[blueBall[0]-1][blueBall[1]],arrCopy[blueBall[0]][blueBall[1]] = 'B','.'
+                                blueBall[0] -= 1
+                            elif arrCopy[blueBall[0]-1][blueBall[1]] == 'O':
+                                return
+                            else:
+                                break
 
-for i in range(1,N-1):
-    for j in range(1,M-1):
-        if game[i][j] == 'B':
-            Bx, By = i, j
-        elif game[i][j] == 'R':
-            Rx, Ry = i, j
-cnt = 1
-minV = float('INF')
-# B의 좌표와 R의 좌표를 가지고 이동한다.
-escape(Rx, Ry, Bx, By)
-print(minV)
+            # 아래
+            else:
+                if redBall[0] < blueBall[0] and redBall[1] == blueBall[1]:
+                    while 1:
+                        if arrCopy[blueBall[0]+1][blueBall[1]] == '.':
+                            arrCopy[blueBall[0]+1][blueBall[1]],arrCopy[blueBall[0]][blueBall[1]] = 'B','.'
+                            blueBall[0] += 1
+                        elif arrCopy[blueBall[0]+1][blueBall[1]] == 'O':
+                            return
+                        else:
+                            if arrCopy[redBall[0]+1][redBall[1]] == '.':
+                                arrCopy[redBall[0]+1][redBall[1]],arrCopy[redBall[0]][redBall[1]] = 'R','.'
+                                redBall[0] += 1
+                            elif arrCopy[redBall[0]+1][redBall[1]] == 'O':
+                                return cnt
+                            else:
+                                break
+                else:
+                    while 1:
+                        if arrCopy[redBall[0]+1][redBall[1]] == '.':
+                            arrCopy[redBall[0]+1][redBall[1]],arrCopy[redBall[0]][redBall[1]] = 'R','.'
+                            redBall[0] += 1
+                        elif arrCopy[redBall[0]+1][redBall[1]] == 'O':
+                            arrCopy[redBall[0]][redBall[1]] = '.'
+                            while 1:
+                                if arrCopy[blueBall[0]+1][blueBall[1]] == '.':
+                                    arrCopy[blueBall[0]+1][blueBall[1]],arrCopy[blueBall[0]][blueBall[1]] = 'B','.'
+                                    blueBall[0] += 1
+                                elif arrCopy[blueBall[0]+1][blueBall[1]] == 'O':
+                                    return
+                                else:
+                                    return cnt
+                        else:
+                            if arrCopy[blueBall[0]+1][blueBall[1]] == '.':
+                                arrCopy[blueBall[0]+1][blueBall[1]],arrCopy[blueBall[0]][blueBall[1]] = 'B','.'
+                                blueBall[0] += 1
+                            elif arrCopy[blueBall[0]+1][blueBall[1]] == 'O':
+                                return
+                            else:
+                                break
+
+        return
+
+    for m in range(4):
+        res[n] = m+1
+        if n != 0 and res[n-1] == res[n]:
+            pass
+        else:
+            r = f(n+1,k)
+
+            if r != None:
+                if minV > r:
+                    minV = r
+                # return r
+
+
+N,M = map(int,input().split())
+arr = [list(input()) for _ in range(N)]
+for i in range(N):
+    for j in range(M):
+        if arr[i][j] == 'R':
+            RedBall = [i,j]
+        elif arr[i][j] == 'B':
+            BlueBall = [i,j]
+#1,2,3,4 방향 순열로 .. but 앞에 똑같은 방향 x
+res = [0,0,0,0,0,0,0,0,0,0]
+minV = 11
+f(0,10)
+if minV == 11:
+    print(-1)
+else:
+    print(minV)
